@@ -8,6 +8,11 @@ const Form = () => {
     const handleSubmit= (event)=>{
         event.preventDefault();
 
+        const regexNum = /[0-9]/;
+        console.log(regexNum.test(user.direccion));
+
+        
+
 
 
 
